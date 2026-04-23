@@ -19,6 +19,7 @@ HOW TO RUN THIS PROGRAM:
 ===========================================================
 */
 
+
 // -----------------------------------------------------------
 // Task 1: Hello World and Variables
 // -------------------------------------------
@@ -37,7 +38,9 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
-
+console.log("Welcome to Javascript!");
+let food = "Pizza";
+console.log("I love " + food);
 
 // -----------------------------------------------------------
 // Task 2: Basic Arithmetic (The Calculator)
@@ -58,7 +61,10 @@ console.log("-------------------------------------------");
 // let fruit_bowl = apples + oranges;
 
 // Write your code below:
-
+let num1 = 10;
+let num2 = 5;
+let total = num1 + num2;
+console.log(total)
 
 
 // -----------------------------------------------------------
