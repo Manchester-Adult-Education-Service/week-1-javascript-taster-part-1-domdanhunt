@@ -90,6 +90,13 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let password = "DDH1992";
+if (password === "DDH1992") {
+     console.log("Access Granted");
+} else {
+     console.log("Access Denied");
+}
+
 
 
 // -----------------------------------------------------------
@@ -122,7 +129,12 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let myNumber = 12
+let myNumberSquared = myNumber * myNumber;
+console.log(myNumberSquared)
 
+let myNumber2 = 5
+console.log(myNumber2 * myNumber2)
 
 // Extension 2: Score Tracker
 // -------------------------------------------
@@ -136,6 +148,14 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let score = 0;
+let userAnswer = 10;
+
+if (userAnswer === 10) {
+     score += 10;
+     console.log(score);
+}
+console.log("Your score is " + score);
 
 
 // Extension 3: The Length Checker
@@ -150,7 +170,12 @@ console.log("-------------------------------------------");
 
 // Write your code below:
 
+let wordChoice = "Supercalifragilisticexpialidocious";
+let length = wordChoice.length;
 
+if (wordChoice.length > 5) {
+     console.log("Wow, that's a long word!")
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
